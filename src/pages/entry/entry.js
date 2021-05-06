@@ -78,7 +78,6 @@ export default function Index(props) {
       },
     })
       .then((res) => {
-        localStorage.setItem("improvements", JSON.stringify(res.data.output));
         setSuccess(true);
       })
       .catch((err) => {

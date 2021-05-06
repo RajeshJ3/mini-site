@@ -4,7 +4,7 @@ function get_domain() {
   } else if (window.location.hostname === "192.168.43.207") {
     return "http://192.168.43.207:8000/api";
   } else {
-    return "https://api.fun.azuuk.com/api";
+    return "https://api-fun.azuuk.com/api";
   }
 }
 

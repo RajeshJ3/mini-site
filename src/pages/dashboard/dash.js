@@ -9,7 +9,7 @@ import axios from "axios";
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "50px 10px",
-    minWidth: "340px",
+    minWidth: "300px",
   },
   whatsapp: {
     margin: "40px 0px",

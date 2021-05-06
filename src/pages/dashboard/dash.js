@@ -11,8 +11,15 @@ const useStyles = makeStyles((theme) => ({
     padding: "50px 10px",
     minWidth: "300px",
   },
+  secretLink: {
+    marginTop: "20px",
+    padding: "10px 20px",
+    backgroundColor: "rgba(255, 255, 255, 0.2)",
+    border: "2px solid #d3d3d3",
+    fontWeight: "300",
+  },
   whatsapp: {
-    margin: "40px 0px",
+    margin: "10px 0px 40px 0px",
     backgroundColor: "#099080",
     "&:hover": {
       backgroundColor: "#099080",
@@ -49,6 +56,25 @@ export default function Index(props) {
         <Typography variant="h4" align="center">
           🎉 Hi {props.name}🎉
         </Typography>
+        <br />
+        <br />
+        <Typography variant="body1" align="left">
+          Save your dashboard link
+        </Typography>
+
+        <Typography
+          variant="body1"
+          align="center"
+          className={classes.secretLink}
+        >
+          https://fun.azuuk.com/dashboard
+        </Typography>
+        <br />
+        <br />
+        <Typography variant="body1" align="left">
+          Share with friends
+        </Typography>
+
         <Typography align="center">
           <Button
             fullWidth
